@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { DemoPageComponent } from './demo-page/demo-page.component';
 import { HelpPageComponent } from './help-page/help-page.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutPageComponent,
     DemoPageComponent,
-    HelpPageComponent
+    HelpPageComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
