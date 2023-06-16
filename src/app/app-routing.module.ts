@@ -3,9 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { DemoPageComponent } from './demo-page/demo-page.component';
 import { HelpPageComponent } from './help-page/help-page.component';
+import { MenuComponent } from './menu/menu.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/about', pathMatch: 'full' },
+  { path: '', redirectTo: '/menu', pathMatch: 'full' },
+  { path: 'menu', component: MenuComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'demo', component: DemoPageComponent },
   { path: 'help', component: HelpPageComponent },
