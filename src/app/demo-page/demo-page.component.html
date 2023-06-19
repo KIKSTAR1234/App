@@ -4,4 +4,7 @@
   <div *ngIf="serverResponse" class="response">
     {{ serverResponse }}
   </div>
+  <div *ngIf="inputError" class="error">
+    <pre>{{ inputError }}</pre>
+  </div>
 </div>

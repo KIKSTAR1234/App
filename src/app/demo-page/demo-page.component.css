@@ -13,3 +13,7 @@ textarea {
   resize: vertical;
 }
 
+.error {
+  color: red;
+}
+
