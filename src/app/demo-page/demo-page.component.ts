@@ -9,7 +9,7 @@ export class DemoPageComponent {
   inputValue: string = '';
   serverResponse: string = '';
 
-  onSubmit(): void {
+  onSubmit() {
     this.serverResponse = this.inputValue;
   }
 }

@@ -6,10 +6,10 @@
   height: 100vh;
 }
 
-input {
+textarea {
   margin-top: 20px;
+  width: 300px;
+  min-height: 100px;
+  resize: vertical;
 }
 
-button {
-  margin-top: 10px;
-}

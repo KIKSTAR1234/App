@@ -1,5 +1,5 @@
 <div class="demo-page">
-  <input [(ngModel)]="inputValue" placeholder="Enter text">
+  <textarea [(ngModel)]="inputValue" placeholder="Enter text"></textarea>
   <button (click)="onSubmit()">Submit</button>
   <div *ngIf="serverResponse" class="response">
     {{ serverResponse }}
