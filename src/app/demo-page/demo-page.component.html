@@ -1,3 +1,7 @@
-<div class="container">
-    <h1>Demo Page</h1>
+<div class="demo-page">
+  <input [(ngModel)]="inputValue" placeholder="Enter text">
+  <button (click)="onSubmit()">Submit</button>
+  <div *ngIf="serverResponse" class="response">
+    {{ serverResponse }}
   </div>
+</div>

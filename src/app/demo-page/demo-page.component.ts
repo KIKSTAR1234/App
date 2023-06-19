@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./demo-page.component.css']
 })
 export class DemoPageComponent {
+  inputValue: string = '';
+  serverResponse: string = '';
+
+  onSubmit(): void {
+    this.serverResponse = this.inputValue;
+  }
 }
