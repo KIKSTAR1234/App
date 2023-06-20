@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { DemoPageComponent } from './demo-page/demo-page.component';
 import { HelpPageComponent } from './help-page/help-page.component';
+import { HttpClientModule } from "@angular/common/http";
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HelpPageComponent } from './help-page/help-page.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

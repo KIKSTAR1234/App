@@ -11,9 +11,26 @@ textarea {
   width: 300px;
   min-height: 100px;
   resize: vertical;
+  overflow-x: auto;
 }
 
 .error {
   color: red;
+  overflow-x: auto;
 }
 
+.okay {
+  color: black;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-x: visible;
+
+
+}
+
+
+.Naslov {
+  color: blue;
+}
